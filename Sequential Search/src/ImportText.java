@@ -2,6 +2,7 @@ import java.util.Scanner;
 import java.io.File;
 import java.io.IOException;
 
+
 public class ImportText
 	{
 
@@ -13,6 +14,20 @@ public class ImportText
 		
 		public static void importDis() throws IOException
 		{
+			
+			Scanner myFile = new Scanner(new File("FindLetterV.txt"));
+			
+			while(myFile.hasNext())
+				{
+					String letter = myFile.nextLine();
+					System.out.println(letter);
+					
+					String wantL = "v";
+					
+					String letter
+				
+				}
+			
 			
 		}
 		
