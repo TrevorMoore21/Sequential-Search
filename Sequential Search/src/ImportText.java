@@ -24,7 +24,7 @@ public class ImportText
 					
 					String wantL = "v";
 					
-					String letter
+			
 				
 				}
 			
